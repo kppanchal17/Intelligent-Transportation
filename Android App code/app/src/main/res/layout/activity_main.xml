@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    tools:context="com.tashafeen.managecontacts.bitsphone.MainActivity">
+
+    <!-- Text Label -->
+    <TextView
+        android:id="@+id/sstopText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/start_stop"
+        android:layout_marginBottom="5dp"
+
+        />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:id="@+id/sstopSpin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+        android:layout_marginBottom="25dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/bus_stops"
+        />
+
+
+    <TextView
+        android:id="@+id/estopText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/end_stop"
+        android:layout_marginBottom="5dp"
+        />
+
+    <!-- Spinner Element -->
+    <Spinner
+        android:id="@+id/estopSpin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_title"
+        android:layout_marginBottom="25dp"
+        android:spinnerMode="dropdown"
+        android:entries="@array/bus_stops"
+        />
+
+
+
+    <Button
+        android:id="@+id/reserveBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Reserve Ticket"
+        android:layout_alignBottom="@+id/estopText" />
+
+    <TextView
+        android:id="@+id/arrival_time_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLines="12"
+        android:lines="12"
+        android:singleLine="false"
+        android:textDirection="ltr"
+        android:text="" android:textSize="20dp"/>
+
+
+
+</LinearLayout>

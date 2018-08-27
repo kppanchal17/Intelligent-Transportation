@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BITSPhone</string>
+
+    <string-array name="bus_stops">
+        <item>Ataba</item>
+        <item>Ramsis</item>
+        <item>Gamal AbdelNaser</item>
+        <item>Tahrier</item>
+        <item>Syda zinab</item>
+        <item>ElManyal</item>
+        <item>Giza</item>
+        <item>Mohandseen</item>
+        <item>Doki</item>
+        <item>Zamalek</item>
+    </string-array>
+
+    <string name="spinner_title">Select Category</string>
+
+    <string name="start_stop">Start Stop : </string>
+    <string name="end_stop">End Stop : </string>
+
+
+</resources>
